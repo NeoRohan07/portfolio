@@ -1,0 +1,12 @@
+name = "portfolio"                 # change to your project name
+main = "_worker.js"                   # points to your worker file
+compatibility_date = "2025-12-04"
+
+# This tells Wrangler where your built React assets live
+[assets]
+directory = "./dist"                  # ← Vite default, CRA uses "build"
+# optional: you can add bucket-style rules if you want
+# exclude = ["*/.map"]             # example: don't upload source maps
+
+# If you need Node.js polyfills (React 18+ usually doesn't need them anymore)
+# compatibility_flags = ["nodejs_compat"]
