@@ -108,3 +108,35 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
+@media(max-width:1170px){
+    .contact{
+        margin: 0;
+        padding:20px;
+    }
+    .contact-title{
+    margin-bottom: 0;
+ 
+    }
+    .contact-left h1{
+        font-size: 40px;
+        text-align: center;
+    }
+     .contact-title h1{
+        font-size: 42px;
+        padding:0;
+    }
+     .contact-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .contact-section{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-right input, .contact-right textarea{
+        width: 82%;
+    }
+   .contact-detail{
+        flex-direction: column;
+   }
+}

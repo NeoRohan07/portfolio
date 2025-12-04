@@ -56,3 +56,38 @@
     transform: scale(1.05);
     transition: 0.5s;
 }
+@media(max-width:1170px){
+    .mywork{
+        margin:80px 20px;
+        margin-bottom:40px;
+    }
+    .mywork-title{
+        margin: 0;
+    }
+     .mywork-title h1{
+    font-size: 36px;
+        padding:0;
+    }
+     .mywork img{
+        width: 130px;
+        right: -20px;
+    }
+    .mywork-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin-bottom: 20px;
+       
+    }
+    .mywork-container img{
+        width:100%;
+        height:auto;
+    }
+    .mywork-showmore{
+        padding:30px;
+        margin-bottom: 0px;
+        img{
+            width:20px;
+        }
+    }
+}

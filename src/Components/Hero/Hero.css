@@ -63,7 +63,7 @@
 .hero-connect:hover, .hero-resume:hover{
     transform: scale(1.05);
 }
-@media(max-width:768px){
+@media(max-width:1170px){
     .hero figure{
        margin-top:120px;
     }
@@ -79,6 +79,7 @@
         line-height: 32px;
     }
     .hero-action{
+        flex-direction: column;
         gap: 16px;
         font-size:18px;
         font-weight:500;

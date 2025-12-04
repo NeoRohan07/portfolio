@@ -64,3 +64,22 @@
     color: #dddddd;
     text-decoration: none;
 }
+@media(max-width:1170px){
+    .footer{
+        margin: 50px 20px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-bottom-right{
+        justify-content: center;
+    }
+    .footer-top-right{
+      display: none;
+    }
+}

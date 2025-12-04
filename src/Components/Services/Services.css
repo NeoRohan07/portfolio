@@ -68,11 +68,14 @@
     transform: scale(1.05);
     transition: 0.8s;
 }
-@media(max-width:768px){
+@media(max-width:1170px){
     .services{
         gap:40px;
-        margin:50px 70px;
-        align-items: start;
+        margin:50px 20px;
+        align-items: center;
+    }
+    .services-format {
+        padding:20px;
     }
     .services-title h1{
         font-size: 40px;
@@ -82,5 +85,8 @@
         width: 130px;
         right: -20px;
     }
-   
+    .services-container{
+        display:flex;
+        flex-direction: column;
+    }
 }
